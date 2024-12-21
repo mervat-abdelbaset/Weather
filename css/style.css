@@ -1,0 +1,139 @@
+
+
+body{
+    background-color:#7AB2D3; 
+    padding-top: 30px;
+    
+}
+.container{
+    background-color:#7AB2D3;
+    max-width: 800px;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px  rgba(0, 0, 0, 0.35); 
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 3fr 4fr ;
+    grid-gap : 1rem;
+}
+.img-section{
+    border-radius: 25px;
+    background-image: url(../picture/bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.defult-info{
+    padding: 1.5rem;
+    text-align: center;
+}
+.defult-info img{
+    width: 80%;
+    margin: 0 auto;
+}
+.search-result{
+    padding: 1.5rem;
+}
+.search-form{
+    margin: 1.5rem 0;
+}
+.search-form input{
+    width: 80%;
+    outline: none;
+    background: transparent;
+    border: 1px solid #CCC	;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border-radius: 30px;
+}
+.search-form button{
+    outline: none;
+    border: none;
+    background-color:#F7F6E7;
+    color: #686D76;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.search-result .contect{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+}
+.list-contant ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 3rem 0rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+
+}
+.list-contant ul li{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+}
+.list-contant ul li img{
+width: 65px;
+}
+
+.footer{
+    color: #fff;
+
+    padding-top: 15px;
+}
+.social-links a{
+color:#F5F5F5;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #F5F5F5;
+    text-align: center;
+
+}
+.btn-outline-success{
+    background-color:#F7F6E7;
+    color: #686D76;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.btn:hover{
+    color:  #F5F5F5;
+   background-color:navajowhite; 
+}
+input{
+    width: 80%;
+    outline: none;
+    background: transparent;
+    border: 1px solid #CCC	;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border-radius: 30px;
+}
+.nav-link{
+    color:  #F5F5F5;
+  
+}
+.navbar-brand {
+    color:  #F5F5F5;
+
+}
+.navbar-nav .nav-link.active{
+    color:#FFF2CC;
+
+}
+.fa-brands{
+    font-size: x-large;
+
+}
+.fa-solid{
+    font-size: x-large;
+    gap: 20px;
+}
